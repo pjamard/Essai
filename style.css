@@ -1,0 +1,119 @@
+.welcome {
+  width: 1422px;
+  height: 800px;
+  background-image: url("assets/ship.jpg");
+  background-size: cover;
+  margin: auto;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+section {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  color: gold;
+  text-align: center;
+  padding: 40px;
+  font-size: 40px;
+  text-shadow: 3px 3px white;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+h2 {
+  padding: 8px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  padding: 0px;
+}
+
+body {
+  background-color: lightgoldenrodyellow;
+}
+
+ul {
+  display: flex;
+  padding: 12px;
+  justify-content: space-around;
+  background: #283b63;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  transition: 1s ease;
+}
+
+ul li a:hover {
+  background-color: white;
+  color: #283b63;
+}
+
+table {
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table * {
+  border: 1px solid;
+  padding: 8px;
+  background-color: linen;
+}
+
+form {
+  padding: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+input {
+  width: 300px;
+  border: 2px solid #283b63;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+textarea {
+  height: 100px;
+  width: 300px;
+  border: 2px solid #283b63;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.btn {
+  color: white;
+  background: #283b63;
+  font-size: 15px;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 50px;
+  width: 150px;
+  height: 50px;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: green;
+  border: 3px solid rgb(1, 241, 41);
+  color: rgb(1, 241, 41);
+}

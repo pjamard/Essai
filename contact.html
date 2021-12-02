@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Contact the Royal Kingdom</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <header>
+    <section id="navigation">
+      <img src="assets/logo.png" alt="logo" class="logo" />
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="royal-family.html">ROYAL FAMILY</a></li>
+        <li><a href="assets.html">ROYAL ASSETS</a></li>
+        <li><a href="contact.html">CONTACT US</a></li>
+      </ul>
+    </section>
+  </header>
+  <body>
+    <h2>
+      Contact the Royal Family
+    </h2>
+    <section id="contact">
+      <form id="contactForm">
+        <label for="firstname">FIRST NAME :</label><br />
+        <input
+          type="text"
+          id="firstname"
+          name="fname"
+          placeholder="Your first name"
+          required
+        /><br />
+        <br />
+        <label for="lastname">LAST NAME :</label><br />
+        <input
+          type="text"
+          id="lastname"
+          name="lname"
+          placeholder="Your last name"
+          required
+        /><br /><br />
+        <label for="email">EMAIL ADRESS :</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="youremail@example.com"
+          required
+        /><br /><br />
+        <label for="message">YOUR MESSAGE </label><br />
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Your message"
+          required
+        ></textarea
+        ><br /><br />
+        <input type="submit" value="Submit" class="btn" />
+      </form>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
